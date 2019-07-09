@@ -1,0 +1,21 @@
+ng new [name]
+ng serve --o
+cors - nuget
+App_Start -> WebApiConfig.cs -> 
+			 config.EnableCors(new EnableCorsAttribute("http://localhost:4200", headers: "*", methods: "*"));
+			 
+ng g c [name]  [name/employee]   [name/employee-list]
+ng g s [shared/employee]
+ng g class [shared/employee] --type=model
+
+getbootstrap - css + javascript
+			   css - head
+			   javascript - body
+			   
+<div class="container">
+  <app-employees></app-employees>
+</div>
+
+Employee model class
+Employee Service
+	formData: Employee
